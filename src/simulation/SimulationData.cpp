@@ -135,6 +135,7 @@ std::vector<menu_section> LoadMenus()
 {
 	return
 	std::vector<menu_section>{
+		{0xE041, String("Walls"), 0, 1}, // Make this my custom button for my own materials
 		{0xE041, String("Walls"), 0, 1},
 		{0xE042, String("Electronics"), 0, 1},
 		{0xE056, String("Powered Materials"), 0, 1},
